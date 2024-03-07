@@ -18,6 +18,7 @@ int main() {
     a = function(a);
     i++;
   }
-  printf("%d", i);
+  ///Modificare Grapa David printf()
+  printf("i = %d", i);
   return 0;
 }
