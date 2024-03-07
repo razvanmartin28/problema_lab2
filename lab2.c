@@ -3,10 +3,12 @@
 
 int function(int x) {
   if (x <= 0)
-    return 0;
-  x = x - 2;
-  x = function(x);  // infinite loop
-  return x;
+      return 0;
+  else
+  {
+      x = x - 2;
+      return x;
+  }
 }
 
 int main() {
